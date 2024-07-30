@@ -9,10 +9,13 @@ A template for getting started with [AstroNvim](https://github.com/AstroNvim/Ast
 #### Make a backup of your current nvim and shared folder
 
 ```shell
-mv ~/.config/nvim ~/.config/nvim.bak
-mv ~/.local/share/nvim ~/.local/share/nvim.bak
-mv ~/.local/state/nvim ~/.local/state/nvim.bak
-mv ~/.cache/nvim ~/.cache/nvim.bak
+ rm -rf  ~/.config/nvim
+ rm -rf ~/.local/share/nvim
+ rm -rf ~/.local/state/nvim
+ rm -rf ~/.cache/nvim
+
+git clone git@github.com:wt3c/astrovim.git ~/.config/nvim
+
 ```
 
 #### Create a new user repository from this template
