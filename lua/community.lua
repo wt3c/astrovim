@@ -14,5 +14,5 @@ return {
   { import = "astrocommunity.pack.vue" },
   { import = "astrocommunity.pack.markdown" },
   { import = "astrocommunity.colorscheme.catppuccin" },
-  { import = "astrocommunity.completion.copilot-lua" },
+  -- { import = "astrocommunity.completion.copilot-lua" },
 }
